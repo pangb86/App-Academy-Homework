@@ -37,7 +37,6 @@ class Board
       end
     end
 
-    current_cup = 0 if current_cup > 13
     self.render
     next_turn(current_cup)
   end
